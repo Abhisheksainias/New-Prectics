@@ -1,3 +1,11 @@
+let someNumber =55
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
+
+
+//******************* Operations*****************
 console.log(2 + 4);
 console.log("2" + 3);
 console.log(2 + "5");
