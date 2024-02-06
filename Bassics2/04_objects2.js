@@ -48,3 +48,4 @@ console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser)); //every key & values in different perticuler array
 
 console.log(tinderuser.hasOwnProperty('isLoggedIn'));
+
