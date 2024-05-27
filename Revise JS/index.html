@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        /*var a = prompt("Who are you");
+        document.write(a);
+        alert(a)*/
+
+        /* for(var a=1; a <= 100; a=a+10){
+             for(var b=a; b<a+10; b++){
+                 document.write(b);
+             }
+             document.write("<br>");
+         }*/
+
+        /*for(var a=5; a>=1; a--){
+            for(var b=a; b>=1; b--){
+                document.write(b );
+            }
+            document.write("<br>")
+        }*/
+
+       /* var evensum = 0;
+        var oddsum = 0;
+        for (a = 1; a <= 10; a++) {
+            if (a % 2 == 0) {
+                evensum += a;
+            } else {
+                oddsum += a;
+            }
+        }
+        document.write("Evensum =" + evensum);
+        document.write("<br>")
+        document.write("oddsum =" + oddsum);*/
+
+       /* var arr = new Array(3);
+        for(var f = 0; f<3; f++){
+            arr[f] = prompt("Enter the value: ");
+        }
+        document.write("<ul>");
+        for(var a =0; a<3; a++){
+        document.write("<li>" + arr[a] + "</li>")
+        }
+        document.write("</ul>")*/
+
+        var ary=[
+        ["Abhishek", 23, "Male", "B.Tech"],
+        ["Rahul", 22, "Male", "B.A"],
+        ["Saini", 23, "Male", "Engi."]
+        ];
+        document.write("<table border='1px' cellspacing='0'>");
+        for(var a =0; a<ary.length; a++){
+            document.write("<tr>");
+            for(var b= 0; b<ary[a].length; b++){
+                document.write("<td>" + ary[a][b] + "</td>  ");
+            }
+            document.write("</tr>");
+        }
+        document.write("</>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
